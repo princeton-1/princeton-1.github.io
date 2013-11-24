@@ -29,13 +29,13 @@ body{
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #0000cc;
+	color: #BD5A13;
 	text-decoration: none;
 }
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
@@ -56,28 +56,28 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #FF9900;
+	background: #D65504;
 	color: black;
-	font: 'Source Sans Pro',Arial, Sans-Serif;
+	font: Sans-Serif, Arial,'Source Sans Pro';
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
 
 /* You can alter the links within a div with the following syntax */
 #plan a {
-	color: #0000cc;
+	color: #073673;
 }
 
 /* This alters the appearance of the div with id="signup". */
 #poem {
 	height: 110px;
-	background: white;
+	background: black;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
-	background: white;
-	color: black; 
+	background: black;
+	color: white; 
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
